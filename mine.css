@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+span{
+    color: pink;
+}
+#nana{
+    color: Purple;
+}
+
+  
+
+/*intro*/
+
+#intro{
+    background-image:linear-gradient(to right,rgb(155, 122, 155),rgb(231, 83, 231));
+    width: 100%;
+    
+}
+
+.container h6{ 
+    font-size: 20px;
+    color: white;
+}
+.container h1{
+    color: whitesmoke;
+    font-size: 70px;
+    
+    
+}
+
+/*banner-aboutme*/
+#banner{
+    background-image:linear-gradient(to right,rgb(155, 122, 155),rgb(231, 83, 231));
+    color: white;
+    padding-top: 10%;
+    text-align: center;
+}
+.col-xl-6 img{
+    max-width: auto;
+    height: 100%;
+}
+.col-xl-6 h4{
+    font-size: 30px;
+}
+.col-xl-6 p{
+    font-size: 20px;
+}
+
+/*projects*/
+#project{
+      padding-top: 5%;
+    
+}
+
+.col:hover{
+    color: purple;
+
+}
+
+/*Contact*/
+#contact{
+    background-image:linear-gradient(to right,rgb(155, 122, 155),rgb(231, 83, 231));
+    color: pink;
+    margin-top: 3%;
+    padding: 10px;
+
+}
+.dropdown-items{
+    width: 100px;
+  height: 100px;
+  background: red;
+  transition: width 2s, height 4s;
+}
+.dropdown-items:hover{
+    color: rgb(236, 15, 236);
+    width: 100px;
+    height: 100px;
+}
+
+
+
+  
+
+/*mobile*/
+@media all and (max-width:767px){
+   .navbar{
+    text-align: center;
+   } 
+.dropdown{
+    text-align: center;
+
+}
+
+}
+
+/*tablet*/
+@media all and (max-width: 850px){
+
+}
+
+/*laptop*/
+
+@media all and (min-width:850px){
+    .navbar{
+        background-image: linear-gradient(to right,rgb(179, 96, 110),rgb(240, 91, 240),purple);
+    }
+    #contact{
+        background-image: linear-gradient(to right,rgb(179, 96 ,110),rgb(240, 91, 240),purple );
+    }
+}
