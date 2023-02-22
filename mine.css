@@ -84,7 +84,7 @@ span{
   
 
 /*mobile*/
-@media all and (max-width:767px){
+@media all and (max-width:480px){
    .navbar{
     text-align: center;
    } 
@@ -92,11 +92,25 @@ span{
     text-align: center;
 
 }
+   .col-xl-6 img{
+    width: 100%;
+    height: auto;
+}
+
+.col-xl-6 p{
+    font-size: 16px;
+}
+
+.col-xl-6 h4{
+    font-size: 20px;
+    padding: 10px;
+}
+
 
 }
 
 /*tablet*/
-@media all and (max-width: 850px){
+@media all and (max-width: 768px){
 
 }
 
